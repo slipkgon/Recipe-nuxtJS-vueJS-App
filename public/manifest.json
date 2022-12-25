@@ -2,7 +2,7 @@
     "name": "Recipe nuxtJS App",
     "short_name": "NuxtTest",
     "description": "Firebase/Firestore as DB and NuxtJS as frontend",
-    "start_url": "/",
+    "start_url": "",
     "display": "standalone",
     "background_color": "white",
     "theme_color": "#FFFFFF",
