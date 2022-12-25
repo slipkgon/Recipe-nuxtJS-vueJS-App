@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  font-family: 'Sarabun', sans-serif;
+  scrollbar-width: none;
+  scrollbar-width: thin;
+  scrollbar-color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 0.4em;
+  height: 0.4em;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #b1b1b156;
+
+  border-radius: 20px;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.1s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+
+}
