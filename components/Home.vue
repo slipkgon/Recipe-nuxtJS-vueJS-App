@@ -69,7 +69,7 @@
           </Menu>
         </div>
         <hr />
-        <div><span class="text-xs text-gray-500">Ingredients</span></div>
+        <div><span class="text-xs text-gray-500">Ingredients : {{rowdata.data.Ingredients.length}}</span></div>
         <div class="block overflow-auto h-[200px] scrollbar-hide">
           <div class="inline-flex flex-wrap  ">
             <div class="break-all truncate p-2 rounded-full bg-gray-100 m-1"
