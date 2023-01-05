@@ -311,7 +311,7 @@ const deleteData = async (data, i) => {
     }
   }).then((res) => {
     if (res == 1) {
-      data_recipe.value.splice(i,0)
+      data_recipe.value.splice(i)
     }
   })
 }
