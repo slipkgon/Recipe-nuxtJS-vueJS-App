@@ -124,7 +124,7 @@
                         Ingredients {{ i + 1 }}</label>
                     </div>
                     <div class="text-center text-gray-600 p-2 " v-if="i != 0">
-                      <svg width="20" height="20" viewBox="0 0 16 16" @click="DataAdd.Ingredients.splice(i)"
+                      <svg width="20" height="20" viewBox="0 0 16 16" @click="DataAdd.Ingredients.splice(i, 1)"
                         class="cursor-pointer justify-center inline-block rounded-md  text-gray-500">
                         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <path
@@ -172,7 +172,7 @@
                         Ingredients {{ i + 1 }}</label>
                     </div>
                     <div class="text-center text-gray-600 p-2 " v-if="i != 0">
-                      <svg width="20" height="20" viewBox="0 0 16 16" @click="DataEdit.data.Ingredients.splice(i)"
+                      <svg width="20" height="20" viewBox="0 0 16 16" @click="DataEdit.data.Ingredients.splice(i, 1)"
                         class="cursor-pointer justify-center inline-block rounded-md  text-gray-500">
                         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                           <path
@@ -311,7 +311,7 @@ const deleteData = async (data, i) => {
     }
   }).then((res) => {
     if (res == 1) {
-      data_recipe.value.splice(i)
+      data_recipe.value.splice(i, 1)
     }
   })
 }
