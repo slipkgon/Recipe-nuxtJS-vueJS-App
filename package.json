@@ -9,7 +9,7 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "nuxt": "3.4.3"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.7",
